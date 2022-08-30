@@ -36,8 +36,8 @@ servi3 =input("ingrese el nombre del siguiente servisio: ")
 monto3 = int(input("ingrese el monto a pagar : "))
 servisios_restantes = 0
 saldo_restante = dinero_disponible - monto1 - monto2 - monto3
-print("te quedan servisios por pagar {} ". format(servisios_restantes))
-print("quedan de saldo ${} disponible ". format(saldo_restante))
+print("te quedan servisios por pagar {} ".format(servisios_restantes))
+print("quedan de saldo ${} disponible ".format(saldo_restante))
 
 print("el dinero total disponible fue de: $" ,dinero_disponible)
 print("Pago por" ,servi1, "$" ,monto1)
